@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#container{  /* peça fundamental para a estilização no modelo interno */
+    background:#ccc; /* cor */
+    width:960px;  /* define a largura */
+    margin:0 auto; /*define a margem superior e inferior */
+    padding:10px; /*define o espaço interno do elemento */
+}
+
+.texto-destaque{
+    font-weight:bold; /* torna o subtítulo negrito */
+}
+
+ul li{ /* tira a bolinha da lista */
+    list-style:none;
+    margin-bottom:5px;
+}
+</style>
+</head>
+<body>
+    <div id="container">
+        <h1>Título principal</h1> <!-- Título -->
+        <p class="text-destaque"> Texto ao qual o título se refere</p> <!-- subtítulo-->
+
+        <ul> <!-- elemento de lista -->
+            <li>Item 1</li> <!-- item -->
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </div>
+</body>
+</html>
